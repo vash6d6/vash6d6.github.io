@@ -1,7 +1,13 @@
-/*CIS133AD 12422 AND2071856 Final Project*/
+/*
+        IndividualCase Chapter01
+        Author: Andrew Lasica
+        Date:   10/24/2018
+
+        Filename: mystyle.css
+*/
 
 body{
-    background-color:#5cd6eb;
+    background-color:#ffffff;
     font-family: 'Times New Roman', Times, Courier;
     color: #000000;
     font-size: 14pts;
@@ -22,7 +28,7 @@ nav a:hover{
 
 header{
     text-align:center;
-    color: hotpink;
+    color: red;
 }
 
 footer{
@@ -47,27 +53,27 @@ h2{
     text-decoration-line: underline;
     font-size: 40px;
     text-align:center;
-    color: #ff69b4;
+    color: red;
     
 }
 
 table, th, td {
-    border: thick solid #ff69b4;
+    border: thick solid red;
     border-collapse: collapse;
     padding: 20px;
-    background-color:#5cd6eb;
+    background-color:#ffffff;
     color: #000000;
 }
 
 table th{
     font-size: 20;
-    background-color: #ff69b4;
+    background-color: #ffffff;
 }
 
 dt{
     font-weight: bold;
     color: #000000;
-    background-color: #ff69b4;
+    background-color: red;
     padding: 5px 10px;
     margin-bottom: 10px;
     margin-top: 10px;
