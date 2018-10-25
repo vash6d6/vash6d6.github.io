@@ -32,16 +32,22 @@
         <main>
             <h2>About Japan</h2>
             
+            <!-- This element checks for the age and displays the difference between their age and the 18 year old limit if applicable using the ageDiff function -->
             <p>
                 <script language="javascript">
                     var age=prompt("What is your age?");
 
                     if (age>=18) alert('Welcome!')
-                    else {
-                        alert('This is an 18+ website. Please come back when you age a bit.')
+                    else 
+                    {
+                        alert('This is an 18+ website. Please come back in ' + ageDiff(age) + ' years.')
                         document.location="";
 
-                         }
+                        function ageDiff(age) 
+                        {
+                            return Math.abs(age-18);
+                        } 
+                    }
                 </script>
             </p>
             
