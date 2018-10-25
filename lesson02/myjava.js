@@ -1,5 +1,5 @@
 /*
-        IndividualCase Chapter01
+        IndividualCase Chapter02
         Author: Andrew Lasica
         Date:   10/24/2018
 
