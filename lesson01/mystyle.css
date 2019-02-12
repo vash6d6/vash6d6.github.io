@@ -5,6 +5,10 @@
 
         Filename: mystyle.css
 */
+main{
+        padding-right: 20%;
+        padding-left: 20%;
+}
 
 body{
     background-color:#ffffff;
