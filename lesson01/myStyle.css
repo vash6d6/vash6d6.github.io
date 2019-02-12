@@ -82,6 +82,6 @@ dt{
     margin-top: 10px;
 }
 
-class noWrap{
+.noWrap{
     white-space: nowrap
 }
