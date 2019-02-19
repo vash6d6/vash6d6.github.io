@@ -41,13 +41,15 @@
             <p><small>Copyright&#169; 2019 by <mark>Andrew Lasica</mark></small></p> <p id="lastMod"></p>
         </footer>
         <script language="javascript">
+            // Prompts the user to enter their age via a prompt and assignes it to var age.
             var age=prompt("What is your age?");
-
+            //If the age entered is greater than 18 they will be welcomed and allowed into the site.
             if (age>=18) alert('Welcome!')
+            //If the age entered is not greater than 18 they will be denied access and told to come back in a number of years.
             else {
+                // displayes an alert that uses the ageDiff funtion to return a number of years untill they can enter the site.
                 alert('This is an 18+ website. Please come back in ' + ageDiff(age) + ' years.')
-                document.location="";
-
+                // simply sumtracts 18 from the age entered and gives us the difference
                 function ageDiff(age) {
                     return Math.abs(age-18);
                 } 
