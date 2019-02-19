@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <!--
-        IndividualCase Chapter01
+        IndividualCase Chapter02
         Author: Andrew Lasica
-        Date:   20/11/2019
+        Date:   02/18/2019
 
         Filename: index.html
    -->
@@ -40,4 +40,17 @@
             <p>Email: AND2071856@maricopa.edu<br></p>
             <p><small>Copyright&#169; 2019 by <mark>Andrew Lasica</mark></small></p> <p id="lastMod"></p>
         </footer>
+        <script language="javascript">
+            var age=prompt("What is your age?");
+
+            if (age>=18) alert('Welcome!')
+            else {
+                alert('This is an 18+ website. Please come back in ' + ageDiff(age) + ' years.')
+                document.location="";
+
+                function ageDiff(age) {
+                    return Math.abs(age-18);
+                } 
+            }
+        </script>
     </body>

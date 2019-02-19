@@ -1,7 +1,7 @@
 /*
-        IndividualCase Chapter01
+        IndividualCase Chapter02
         Author: Andrew Lasica
-        Date:   02/11/2019
+        Date:   02/18/2019
         Filename: index.htm
 */
 
