@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+        IndividualCase Chapter03
+        Author: Andrew Lasica
+        Date:   02/25/2019
+
+        Filename: events.html
+   -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Andrew Lasica">
+        <title>Home</title>     
+        <meta name="description" content="Events: Cons, Concerts and Cosplay">
+        <meta name="keywords" content="Otaku, Japan, Vacation, Nerd, Anime">
+        <link rel="stylesheet" type="text/css" href="myStyle.css">
+        <!--Link to the Modernizr library-->
+        <script src="modernizr.custom.65897.js"></script>
+    </head>
+    
+    <body>
+        <header>
+            <h1>Japan: Land of the Rising Sun</h1>
+            <nav>
+                <a href="index.html">Home</a> |
+                <a href="places.html">Places</a> | 
+                <a href="events.html">Events</a> | 
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+        
+        <main>
+            <h2>Things to do</h2>
+        
+            <table>
+                <tr>
+                    <th>Event</th>
+                    <th>Date</th>
+                    <th>Location</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <!--Inline styling for the first 3 data fields neccisary for formatting. Must be inline to prevent data field 4 from applying the nowrap property.-->
+                    <td class="noWrap">Mount Fuji Climbing season</td>
+                    <td class="noWrap">Early July – early September</td>
+                    <td class="noWrap">Mount Fuji</td>
+                    <td>Make a pilgrimage to the top of one of the world's most iconic mountains.</td>
+                </tr>
+                <tr>
+                    <td class="noWrap">Obon Festival</td>
+                    <td class="noWrap">August 13th-15th</td>
+                    <td class="noWrap">Local Buddhist temples</td>
+                    <td>Obon is the time in Japan when it is believed that you can be visited by your ancestors. Lights and lanterns are hung on houses to guide their spirits home. At the end of the event, floating lanterns are put into bodies of water to guide the spirits back to the afterlife.</td>
+                </tr>
+                <tr>
+                    <td class="noWrap">World Cosplay Summit 2018</td>
+                    <td class="noWrap">July 28th – August 5th</td>
+                    <td class="noWrap">Several locations around Aichi Prefecture</td>
+                    <td>The World Cosplay Summit is one of the largest cosplay events in Japan and attracts a lot of attention from those visiting from the west. If you want to dress as your favorite character and hang out with some amazing artists come visit the World Cosplay Summit 2018.</td>
+                </tr>
+                <tr>
+                    <td class="noWrap">Hatsune Miku Magical Mirai 2018</td>
+                    <td class="noWrap">September 1st-2nd </td>
+                    <td class="noWrap">Makuhari Messe International Exhibition Hall 9</td>
+                    <td>This is a concert performed by the hologram known as Hatsune Miku and friends. It is an amazing technological feat of sounds and sights held in Tokyo that is a must see if you want to experience one of the reasons Tokyo is considered a technological capital of the world.</td>
+                </tr>
+            </table>
+    
+            <form action="https://secure.riosalado.edu/cis-course-resources/postscript.aspx" method="post">
+                <h3>Sign up for our mailing list below to receive updated events and keep you in the know.</h3>
+                <p>Would you like to sign up for our newsletter?</p>
+                <label>Yes: <input type="radio" name="newsletterYes">No: </label>
+                <label><input type="radio" name="newsletterNo"></label><br>
+                <label>First Name: <input type="text" name="FirstName"></label><br>
+                <label>Last Name: <input type="text" name="LastName"></label><br>
+                <label>Email Address: <input type="text" name="Email"></label><br>
+                <label>Questions? Leave a comment below: <br><textarea rows="5" cols="55" name="comment"></textarea></label><br>
+                <label>Click to Submit: <input type="submit" onclick=myAlert(); value="Submit"></label>
+            </form>   
+        </main>
+        
+        <footer>
+            <p>Email: AND2071856@maricopa.edu<br></p>
+            <p><small>Copyright&#169; 2019 by <mark>Andrew Lasica</mark></small></p> 
+            <p id="lastMod"></p>
+        </footer>
+        <script src="myJava.js"></script>
+    </body>
